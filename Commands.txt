@@ -1,0 +1,23 @@
+config:- 1 time and must
+name
+email
+$ git config --global user.name "Indrani Sarkar"
+$ git config --global user.email "indrani_sarkar@persistent.co.in"
+
+$ git config --global user.name
+$ git config --global user.password
+
+$ git config --list
+
+
+initialise(own) or clone(for shared) repository:- 1 time and must
+$ git init (-local repository) master is default branch!Under git !Using git! Branch not visible under repository....
+
+track you application file
+$ git status
+
+add to staging area from current directory 
+$ git add File1.txt(started tracking)
+
+commit to repository (-m message ->should be very specific throughout the application)
+$ git commit -m "ReqNo:123:-  added first line in file1"
