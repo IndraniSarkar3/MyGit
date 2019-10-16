@@ -2,9 +2,11 @@
 
 class HelloGit{
 public static void main(){
-	void myMethod(){
+	static void myMethod(){
 		sysout("My method");
 	}
+	public static void main(String args[]){
+	mymethod();
 	System.out.println("ABCd This will print!!!...Welcome to Git...!!!");
 	}
 
